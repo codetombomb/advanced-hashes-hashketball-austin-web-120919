@@ -235,6 +235,6 @@ def big_shoe_rebounds
         el_2.each do |player|
         end
       end
-    end    
+    end
   end
 end
