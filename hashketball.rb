@@ -236,6 +236,7 @@ def big_shoe_rebounds
           if player[player_name] == largest_shoe[0]
             player.each do |st,re|
               binding.pry
+            
             end
           end
         end
