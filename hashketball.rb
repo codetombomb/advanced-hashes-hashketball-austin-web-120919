@@ -229,6 +229,6 @@ def big_shoe_rebounds
       end
     end
   end
-  sh_size.max_by{|k,v| v}
+  largest_shoe = sh_size.max_by{|k,v| v}
   
 end
