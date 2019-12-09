@@ -233,7 +233,10 @@ def big_shoe_rebounds
     team.each do |el,el_2|
       if el == :players
         el_2.each do |player|
-          binding.pry
+          if player[player_name] == largest_shoe[0]
+            player.each do
+            end  
+          end
         end
       end
     end
