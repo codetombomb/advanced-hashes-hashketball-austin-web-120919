@@ -222,6 +222,7 @@ def big_shoe_rebounds
           player.each do |st,value|
             if st == :shoe
               sh_size << value
+              binding.pry
             end
           end
         end
