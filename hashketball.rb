@@ -221,7 +221,7 @@ def big_shoe_rebounds
         el_2.each do |player|
           player.each do |st,value|
             if st == :shoe
-              sh_size << value
+              # sh_size << value
               binding.pry
             end
           end
