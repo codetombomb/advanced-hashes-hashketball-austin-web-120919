@@ -232,6 +232,8 @@ def big_shoe_rebounds
   game_hash.each do |h_a,team|
     team.each do |el,el_2|
       if el = :players
+        el_2.each do |player|
+        end
       end
     end    
   end
