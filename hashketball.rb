@@ -223,7 +223,6 @@ def big_shoe_rebounds
             if st == :shoe
               sh_size << value
             end
-              binding.pry
           end
         end
       end
