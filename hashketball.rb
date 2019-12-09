@@ -237,7 +237,6 @@ def big_shoe_rebounds
             player.each do |st,re|
               if st == :rebounds
                 return re
-
             end
           end
         end
