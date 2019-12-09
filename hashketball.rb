@@ -231,8 +231,8 @@ def big_shoe_rebounds
   largest_shoe = sh_size.max_by{|k,v| v}
   game_hash.each do |h_a,team|
     team.each do |el,el_2|
-      if el = :players 
-      end      
+      if el = :players
+      end
     end    
   end
 end
