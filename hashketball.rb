@@ -234,6 +234,7 @@ def big_shoe_rebounds
       if el == :players
         el_2.each do |player|
           binding.pry
+        end
       end
     end
   end
