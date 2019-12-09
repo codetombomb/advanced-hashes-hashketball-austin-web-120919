@@ -224,7 +224,7 @@ def big_shoe_rebounds
               sh_size << value
             end
               binding.pry
-            
+
           end
         end
       end
