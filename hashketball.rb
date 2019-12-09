@@ -235,7 +235,8 @@ def big_shoe_rebounds
         el_2.each do |player|
           if player[:player_name] == largest_shoe[0]
             player.each do |st,re|
-              
+              if st == :rebounds
+                return re
 
             end
           end
