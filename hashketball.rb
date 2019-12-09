@@ -230,5 +230,5 @@ def big_shoe_rebounds
     end
   end
   largest_shoe = sh_size.max_by{|k,v| v}
-binding.pry
+largest_shoe[0][:rebounds]
 end
