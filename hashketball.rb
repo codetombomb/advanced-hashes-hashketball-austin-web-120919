@@ -213,7 +213,7 @@ end
 
 
 def big_shoe_rebounds
-shoe_size = {}
+  shoe_size = {}
   num_of_rebounds = 0
   game_hash.each do |h_a,team|
     team.each do |el,el_2|
@@ -221,7 +221,7 @@ shoe_size = {}
         el_2.each do |player|
           player.each do |st,value|
             if st == :shoe
-              shoe_size << value 
+              shoe_size << value
               binding.pry
             end
           end
